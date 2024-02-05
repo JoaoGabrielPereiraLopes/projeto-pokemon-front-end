@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="pokemon.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="pokemon.js"></script>
+</head>
+<body id="body">
+    <h1>
+      Bem vindo ao lugar onde colocamos pobres animais pra batalhar, até eles desmairem sofrendo risco de vida
+    </h1>
+    <div id="campo" class="item">
+        <div class="ataques item p1">
+            <button class="poder" onclick="fogo()">bola de fogo</button> <br>
+            <button class="poder" onclick="soco()">soco de fogo</button>
+            <button class="poder">aquecer</button>
+        </div>
+        <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/blaziken.gif" alt="Charizard" id="charizard">
+        <div class="ataques item p2">
+            <button class="poder" onclick="sombra()">bola de sombra</button>
+            <button class="poder" onclick="fisico_lucario()">soco</button>
+            <button class="poder">treino de pernas</button>
+        </div>
+        <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/lucario.gif" alt="Lucario" id="lucario">
+    </div>
+    <div class="vida" id="vida1">
+        <div id="vidap1">
+
+        </div>
+        <h6 class="visor" id="visorp1">
+            100/100
+        </h6>
+    </div>
+    <div class="vida" id="vida2">
+        <div id="vidap2" >
+        </div>
+        <h6 class="visor" id="visorp2">
+            100/100
+        </h6>
+    </div>
+</body>
+</html>

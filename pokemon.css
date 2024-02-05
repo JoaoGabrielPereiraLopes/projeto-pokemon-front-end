@@ -1,0 +1,170 @@
+@keyframes ataque_fisico_lucario {
+    0% {
+        margin-left: 550px;
+    }
+    50% {
+        margin-left: -600px;
+    }
+    100% {
+        margin-left: 550px;
+    }
+}
+@keyframes ataque_fisico_charizard{
+    0% {
+        margin-right: 550px;
+    }
+    50% {
+        margin-right: -600px;
+    }
+    100% {
+        margin-right: 550px;
+    }
+}
+@keyframes ataque_de_fogo{
+    from {
+        margin-right: 300px;
+    }
+    to {
+        margin-right: -700px;
+    }}
+@keyframes ataque_sombra{
+    0% {
+        margin-left: 300px;
+            transform: rotate(0);
+    }
+    100% {
+        margin-left: -600px;
+        transform: rotate(-1800deg);
+    }
+}
+@keyframes dano{
+    0%{
+        transform: rotate(0);
+    }
+    33%{
+        transform: rotate(10deg);
+    }
+    66%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+@keyframes dano_charizard{
+    0%{
+        transform: rotate(0) scaleX(-1);
+    }
+    33%{
+        transform: rotate(10deg) scaleX(-1);
+    }
+    66%{
+        transform: rotate(-10deg) scaleX(-1);
+    }
+    100%{
+        transform: rotate(0) scaleX(-1);
+    }
+}
+.vida{
+    margin-top: 1%;
+    width: 40%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    height: 10px;
+    background-color: gray;
+    content: "";
+    display: inline-block;
+    padding: 1%;
+}
+#vida1{
+    float: left;
+}
+h6{
+    color: white;
+}
+#vidap2{
+    width: 600px;
+    height: 90%;
+    background-color: red;
+}
+#vidap1{
+    width: 600px;
+    height: 90%;
+    background-color: red;
+}
+#vida2{
+    float: right;
+}
+.sombra{
+    margin-top: 100px;
+    margin-left: 300px;
+    width: 200px;
+    animation-duration: 400ms;
+    animation-name: ataque_sombra;
+}
+.fogo{
+    margin-top: 100px;
+    margin-right: 300px;
+    width: 200px;
+    animation-duration: 400ms;
+    animation-name: ataque_de_fogo;
+}
+body {
+    background-color: black;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(180, 180, 180);
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p1 {
+    float: left;
+}
+
+.p2 {
+    float: right;
+}
+
+.ataques {
+    padding: 20px;
+    border-radius: 20%;
+    background-color: cornflowerblue;
+}
+
+button {
+    width: 100px;
+    font-size: 20px;
+    height: 51.6px;
+}
+
+#charizard {
+    height: 360px;
+    float: left;
+    transform: scaleX(-1);
+}
+
+#lucario {
+    float: right;
+    height: 360px;
+}
+
+.item {
+    width: min-content;
+    height: min-content;
+}
+
+#campo {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(gramado.jpg);
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    width: 1400px;
+    align-items: center;
+    height: 380px;
+}
